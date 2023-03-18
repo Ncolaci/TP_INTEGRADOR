@@ -9,4 +9,4 @@ st.write("Esto es la primer prueba")
 with open('TP_INTEGRADOR/df_test.pkl', 'rb') as f_dftest:
         dataset_test = pickle.load(f_dftest)
 
-st.write(dataset_test.plot(kind = "line", y = ['temp_min', 'model_ARIMA','predict_est']))
+dataset_test.plot(kind = "line", y = ['temp_min', 'model_ARIMA','predict_est'])
