@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import seaborn as sns
+import matplotlib
 
 st.title("Predicción de Temperatura")
 st.write("Esto es la primer prueba")
