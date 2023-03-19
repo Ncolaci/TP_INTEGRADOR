@@ -3,6 +3,7 @@ import pickle
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
 
 st.title("Predicción de Temperatura")
 st.write("Esto es la primer prueba")
@@ -28,6 +29,6 @@ def RMSE(predicted, actual):
     return rmse
 
 st.write("Error de ARIMA")
-RMSE(df_test['model_ARIMA'], df_test['temp_min'])
+RMSE(dataset_test['model_ARIMA'], dataset_test['temp_min'])
 st.write("OLS")
-RMSE(df_test['predict_est'], df_test['temp_min'])
+RMSE(dataset_test['predict_est'], dataset_test['temp_min'])
