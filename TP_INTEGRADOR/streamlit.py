@@ -28,6 +28,6 @@ def RMSE(predicted, actual):
     return rmse
 
 st.write("Error de ARIMA")
-st.write(RMSE(df_test['model_ARIMA'], df_test['temp_min']))
+RMSE(df_test['model_ARIMA'], df_test['temp_min'])
 st.write("OLS")
-st.write(RMSE(df_test['predict_est'], df_test['temp_min']))
+RMSE(df_test['predict_est'], df_test['temp_min'])
