@@ -29,6 +29,6 @@ def RMSE(predicted, actual):
     return rmse
 
 st.write("Error de ARIMA")
-RMSE(dataset_test['model_ARIMA'], dataset_test['temp_min'])
+st.write(RMSE(dataset_test['model_ARIMA'], dataset_test['temp_min']))
 st.write("OLS")
-RMSE(dataset_test['predict_est'], dataset_test['temp_min'])
+st.write(RMSE(dataset_test['predict_est'], dataset_test['temp_min']))
