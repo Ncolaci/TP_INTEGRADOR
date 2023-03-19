@@ -15,4 +15,4 @@ with open('TP_INTEGRADOR/df_test.pkl', 'rb') as f_dftest:
 fig = plt.figure(figsize=(8,8))
 dataset_test.plot(kind = "line", y = ['temp_min', 'model_ARIMA','predict_est'])
 
-st.pyplot(grafico)
+st.pyplot(fig)
