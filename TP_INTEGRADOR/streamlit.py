@@ -19,3 +19,15 @@ st.write(dataset_test)
 #fig = plt.figure(figsize=(15,15))
 
 st.pyplot(dataset_test.plot(kind = "line", y = ['temp_min', 'model_ARIMA','predict_est']).figure)
+
+
+
+def RMSE(predicted, actual):
+    mse = (predicted - actual) ** 2
+    rmse = np.sqrt(mse.sum() / mse.count())
+    return rmse
+
+st.write("Error de ARIMA")
+st.write(RMSE(df_test['model_ARIMA'], df_test['temp_min']))
+st.write("OLS")
+st.write(RMSE(df_test['predict_est'], df_test['temp_min']))
