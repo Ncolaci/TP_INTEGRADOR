@@ -3,3 +3,4 @@ sklearn
 scikit-learn
 matplotlib
 pandas
+numpy
