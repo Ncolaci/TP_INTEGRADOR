@@ -16,7 +16,6 @@ st.write(dataset_test)
 
 
 
-fig = plt.figure(figsize=(15,15))
-dataset_test.plot(kind = "line", y = ['temp_min', 'model_ARIMA','predict_est'])
+#fig = plt.figure(figsize=(15,15))
 
-st.pyplot(fig)
+st.pyplot(dataset_test.plot(kind = "line", y = ['temp_min', 'model_ARIMA','predict_est']).figure)
