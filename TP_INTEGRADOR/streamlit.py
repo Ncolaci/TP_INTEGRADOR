@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import seaborn as sns
 import matplotlib.pyplot as plt
+import pandas as pd
 
 st.title("Predicción de Temperatura")
 st.write("Esto es la primer prueba")
@@ -15,7 +16,7 @@ st.write(dataset_test)
 
 
 
-fig = plt.figure(figsize=(8,8))
+fig = plt.figure(figsize=(15,15))
 dataset_test.plot(kind = "line", y = ['temp_min', 'model_ARIMA','predict_est'])
 
 st.pyplot(fig)
