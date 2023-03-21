@@ -3,5 +3,4 @@ scikit-learn
 matplotlib
 pandas
 numpy
-statmodels
 shelve
