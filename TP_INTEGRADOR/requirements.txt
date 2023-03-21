@@ -4,3 +4,10 @@ scikit-learn
 matplotlib
 pandas
 numpy
+datetime
+re
+statmodels
+scipy
+statistics
+warnings
+shelve
