@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-from datetime import date, time, datetime
 import seaborn as sns
 from matplotlib import pyplot as plt
 import statsmodels.api as sm
@@ -8,14 +7,11 @@ import statsmodels.formula.api as smf
 import statsmodels.tsa.api as smt
 from sklearn.model_selection import train_test_split
 from statsmodels.tsa.stattools import adfuller
-from scipy import stats
-from statistics import mode
 from statsmodels.tsa.stattools import acf, pacf
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from statsmodels.tsa.arima_model import ARIMA
 import statsmodels.api as sm
 from statsmodels.graphics.tsaplots import plot_predict
-import warnings
 import pickle
 import shelve
 
