@@ -6,16 +6,14 @@ import pandas as pd
 import numpy as np
 
 st.title("Predicción de Temperatura")
-st.write("Esto es la primer prueba")
-st.write("Esto es la primer prueba2")
 
 
 #  levantamos el df_test
-with open('TP_INTEGRADOR/df_test.pkl', 'rb') as f_dftest:
-        dataset_test = pickle.load(f_dftest)
+#with open('TP_INTEGRADOR/df_test.pkl', 'rb') as f_dftest:
+#        dataset_test = pickle.load(f_dftest)
 
-st.write("Nuestro Dataset con las predicciones se ve asi")
-st.write(dataset_test)
+#st.write("Nuestro Dataset con las predicciones se ve asi")
+#st.write(dataset_test)
 
 
 
