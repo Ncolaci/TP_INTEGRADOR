@@ -7,6 +7,7 @@ import numpy as np
 
 st.title("Predicción de Temperatura")
 st.write("Esto es la primer prueba")
+st.write("Esto es la primer prueba2")
 
 
 #  levantamos el df_test
