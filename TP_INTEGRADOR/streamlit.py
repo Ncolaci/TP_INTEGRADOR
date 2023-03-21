@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 from datetime import date, time, datetime
-import re
 import seaborn as sns
 from matplotlib import pyplot as plt
 import statsmodels.api as sm
